@@ -222,21 +222,6 @@ The dataset contains a mix of:
   - Outliers represent high-cost failure modes
   - Cost distribution helps in warranty reserve planning
 
-### Visualization 4: Repair Age vs. Mileage Scatter Plot
-- **Type**: Scatter Plot with Trend Line
-- **Purpose**: Understand relationship between age and usage
-- **Insights**:
-  - High mileage, low age = heavy usage vehicles
-  - Low mileage, high age = infrequently used vehicles
-  - Correlation analysis for failure prediction
-
-### Visualization 5: Cost by Causal Part
-- **Type**: Grouped Bar Chart / Heatmap
-- **Purpose**: Identify high-cost failure components
-- **Insights**:
-  - Parts with high frequency AND high cost = priority issues
-  - Cost per failure analysis for ROI calculations
-
 ---
 
 ## 🏷️ Tag Generation from Free Text
@@ -375,19 +360,8 @@ automotive-data-analysis/
 │
 ├── DA -Task 2..xlsx          # Original dataset
 ├── analysis.ipynb             # Jupyter notebook with full analysis
-├── data_analysis.py           # Python script version (optional)
-├── README.md                  # Project overview and documentation
-├── requirements.txt           # Python dependencies
-├── visuals/                   # Folder containing saved plots
-│   ├── repair_age_distribution.png
-│   ├── top_causal_parts.png
-│   ├── cost_distribution.png
-│   ├── age_vs_mileage.png
-│   └── cost_by_part.png
-└── results/                   # Generated outputs
-    ├── cleaned_data.csv       # Cleaned dataset
-    ├── tags_summary.csv       # Extracted tags
-    └── insights_report.pdf    # Detailed insights report
+├── README.md                  # Project overview
+└── visuals/                   # Folder containing saved plots (optional)
 ```
 
 ---
